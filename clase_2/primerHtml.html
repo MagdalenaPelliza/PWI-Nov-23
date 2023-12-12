@@ -1,0 +1,90 @@
+<!--COMENTARIOS los browsers no los leen HTML etiqueta todo
+es texto puro  etiqueta TODO: imagen, enlace, menu,titulo 
+ETIQUETAS estan en minúscula como convención <NOMBRE> hay dos tipos: las que cierran en si mismas <nombre/> y las que tienen apertura y cierre <nombre>contenido</nombre>
+-->
+<!--ATAJOS 
+!+tab entr o html:5+entr-->
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="sitio de objetos unicos">
+    <title>ObUn</title>
+</head><!--los META son metadatos  son etiquetas que cierran en si misma y tienen info extra. La inormación Extra de una etiqueta se llaman ATRIBUTOS 
+-->
+
+<!--ATRIBUTOS: informacion extra para las etiquetas. Ejemplos: content, name, charsets,lang (lenguaje en el que vamos a estar escribiendo)
+name  y content =contenido -->
+<!--SEO buenas practicas para los motores de búsqueda
+-->
+
+
+<body>
+    <h1>ObjetosUnicos</h1>
+    <!-- Titulos- No tiene que ver con el tamaño , sino con la importancia: de 1 a 6 de + a - importante. SEO: solo  un h1 por html-->
+    <h2>Casa & Vestimenta</h2>
+    <p>Los objetos hechos a mano o los que pertenecen a otros tiempos, los hacen especiales, únicos. Son objetos destinados a ser valorados por espíritus que aman la belleza  de lo único.
+         </p> 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus neque ipsa quisquam modi dignissimos nobis at ea fugit dolor! Dolor officiis cum quas quis earum laudantium veniam ab asperiores perspiciatis.
+
+     </p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto necessitatibus obcaecati sequi quia impedit esse doloremque fugit corrupti aperiam, eius soluta, ratione dolorem adipisci facilis qui consequuntur! Optio, sint totam!</p>
+
+
+<!--Etiquetas SEMANTICAS tienen que estar en el body: TITULOS; PARRAFOS, LISTAS-->
+<!-- PARRAFOS <p> para cada parrafo .Si quiero un punto y aparte uso </br>
+-->
+<!--LISTAS Organizadas<ol>: usualmente estan ordenadas con números, letras , etc-->
+<!--LISTAS Desorganizadas<ul>: tienen puntos o cuadraditos o tildes , en lugar de numeros o letras-->
+    <ul>
+        <!--los items o elementos "hijos" tienen etiquetas <li>  con su respectivo contenido-->
+            <li>muebles</li>
+            <li>cuadros</li>
+            <li>joyas</li>
+            <li>vestimenta</li>
+    </ul>
+    <ol>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ol>
+ <!--Funcinales:ANCLAS son enlaces,vínculan. necesitan de un ATRIBUTO: "href" despues de un espacio.Nos redirije a otros sitios, como a distintas hojas de nuestro sitio o distintas secciones de nuestro sitio."Target" sin nada me lo abre en la misma pestaña , si al target le pongo "_blank" me abre el link en una nueva pestaña--> 
+ <a href="https://google.com/" target="_blank">ir a google</a> 
+
+ 
+ <a href="./OtroHtml.html">ir a hoja secundaria</a>
+ <img src="../Clase_1/TCG.jpg" alt="tapa del libro"/>
+
+ <img src="./imagenes/FPelli.JPG" alt="Franco"/>
+
+<a href="https://google.com/" target="_blank">
+    <img src="../Clase_1/TCG.jpg" alt="tapa del libro"/>
+
+    </a>
+
+
+
+ <!--Etiqueta IMAGEN cierra en si misma . Necesita ATRIBUTO source SRC para indicar el routeo de dd se encuentra la imagen.El atributo ALT es texto alternativo que describe la imagen (accesibilidad)-->
+ <!--Etiqueta BUTTON con Java script le damos contenido y fu. Sirve para hacer click y sirve para acciones que NO sean redirijir.Si queremos redirijir usamos un ancla-->
+
+ <button>click</button>
+
+ <!--Etiquetas ESTRUCTURALES: Div y Span engloban etiquetas.La diferencia entre estos es el alcance.Con el Div podemos darle el espacio que mas queramos; por defecto usa el ancho de pantalla. Con Span utiliza el ancho mínimo de su contenido. Un uso muy comun del span es para resaltar partes de texto-->
+
+    <div>
+        <h2>Muebles</h2>
+        <p>La calidad y lo genuino de otros tiempos habitando  los dias de nuestras casas </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita <spam style="background-color:red;">voluptatem modi molestiae harum impedit officiis pariatur</spam> iure minima ad nesciunt nulla sed quam autem nemo quia, sint eos voluptatum dolore.</p>
+    </div>
+
+
+
+    
+</body>
+</html>
+
+
+
+
+

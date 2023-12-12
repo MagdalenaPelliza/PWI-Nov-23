@@ -1,0 +1,68 @@
+/* comentarios en CSS */
+/*SELECTORES {
+propiedad: valor
+propiedad: valor
+propiedad: valor
+}
+ x etiqueta*/
+ h1{color: #ffffff ;background-color: hsl(332, 87%, 3%);
+   height: 20vh;padding: 60px; 160px; margin: 20px; ;
+
+}
+
+ p{color: #0000ff;
+margin: 40px;40px}
+a{border-style: dotted;
+border-color: #000000;
+border-radius: 50%;
+border-width: 5px;}
+
+body{margin: 0;}
+*{margin:0;
+box-sizing: border-box;}
+
+h2{width: 200px;
+height: 40px}
+
+span{background-color:#eeee27 ;}
+
+.tarjeta{width: 600px;height:500px;
+background-color:#ff7f50;}
+
+#textoTarjeta{width: 50%;
+   height: 20%;background-color: #00ffff;}
+
+
+.texto{color: #2be253
+   ;background-color: hsl(91, 100%, 75%);}
+
+
+ /*x id escribo # y a continuacion el nombe del id*/
+
+ #botonParticular{color:#ff8c00}
+button{background-color: #44887f80;
+padding: 22px 56px;}
+/*SELECTORES COMPUESTOS usa como referencia otras etiquetas. Hay que tener en cuenta que si las etiquetas en algun momento se modifican ya no va a servir de referencia porque no lo va a encontrar*/
+
+
+
+/*PROPIEDADES 
+color->color de la tipografia
+background-color->color de fondo de la etiqueta
+
+definir colores
+rojo ,verde, azul
+
+-colores definidos x CSS
+-rgb/rgba
+-hexagesimal
+
+*/
+/*unidades de medidas 
+unidades relativas (a otros)
+-porcentajes
+- view height - view widht vh vw
+
+
+unidades Fijas
+-pixeles*/
