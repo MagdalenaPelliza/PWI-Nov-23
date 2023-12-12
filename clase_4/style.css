@@ -3,10 +3,12 @@ Son mas especificos que los oros selectores, en gerarquia le ganan al id.
 El elemento que se estila es el que está despues del +.
 */
 .titulo{
-    color:green
+    color:green;
 }
-#parrafoUnico{background-color: pink;}
+#parrafoUnico{
+    background-color: pink;
+}
 
 p + button{
-    color: darkblue
+    color: darkblue;
 }
