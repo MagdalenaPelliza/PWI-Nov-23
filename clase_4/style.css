@@ -2,13 +2,78 @@
 Son mas especificos que los oros selectores, en gerarquia le ganan al id.
 El elemento que se estila es el que está despues del +.
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100;200;900&display=swap');
+
+*{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+box-sizing: border-box;   
+ 
+}
+
 .titulo{
     color:green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    width:fit-content;
+    text-align: center;
+    background-color: aqua;
+    text-shadow:6px 10px #bbff00,
+    2px 4px black,
+    -5px -7px #ff00b3;
+    
+   
 }
 #parrafoUnico{
     background-color: pink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+a{background-color: grey;
+padding: 5px;
+text-decoration: none;
+
+}
+h2{
+    text-transform: uppercase;
 }
 
-p + button{
-    color: darkblue;
+.seccion{
+    width:500px;
+    background-color:cornflowerblue ;
+    box-shadow: 3px 3px grey,
+    -5px -7px orange
+    ;
+    
+
 }
+p~.clase1{
+    background-color: brown;}
+
+p + .clase1{
+    color: white;
+    background-color: blue;
+}
+
+#boton{ color: brown
+}
+ul~p{
+background-color:chartreuse;
+font-weight: 1rem;
+text-align: center;
+}
+div>p{
+    color:darkgreen;
+}
+.tituloh3,li{
+    border: 2px solid black;
+font-family: 'Kalnia', serif;
+font-weight: 900;
+
+
+}
+
+
+
