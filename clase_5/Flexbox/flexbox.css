@@ -1,0 +1,27 @@
+.contenedor{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    border: 2px solid blue;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.tarjetas{
+    width: 200px;
+    border: 2px solid violet;
+    background-color: pink;
+    height: fit-content;
+
+}
+img{
+    width: 100%;
+
+}
+h1{
+    background-color: red;
+    width: 120px;
+}
+
