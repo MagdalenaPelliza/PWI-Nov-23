@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./form.css">
+    <title>Clase-6</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form action="direccion de envio " method="post">
+
+        <div>
+            <label for="nombre">Nombre Completo</label>
+            <input type="text" id="nombre" name="Nombre completo"class="input-texto" required>
+
+        </div>
+        
+
+        <label for="correo">Correo electronico
+         <input type="e-mail"id=correo name="e-mail" placeholder="ejemplo@gmail.com"class="input-texto">
+        </label>
+
+        <div>
+            <label for="contraseña">Contraseña</label>
+            <input type="password"id=contraseña name="contraseña"class="input-texto">
+        </div>
+        
+
+        <label>ingrese los cursos:
+
+        <label for="HyC">Html y CSS</label>
+        <input type="checkbox" id="HyC" value="HyC" name="curso"/>
+
+        <label for="boostrap">Boostrap</label>
+        <input type="checkbox" id="boostrap" value="boostrap" name="curso"/>
+
+        <label for="react">React</label>
+        <input type="checkbox"id="react" value="react" name="curso"/>
+        </label>
+        
+        <div>
+            <label>Ingrese el turno:</label>
+
+            <label for="tm">Turno mañana</label>
+            <input type="radio" id="tm" value="mañana" name="turno">
+            <label for="tt">Turno tarde</label>
+            <input type="radio" id="tt" value="tarde" name="turno"> 
+
+        </div>
+
+        <label for="comentarios">Comentarios:
+        <textarea name="Comentario" id="comentarios" cols="30" rows="5"></textarea>
+        </label>
+
+        <label for="pais">Pais de origen
+         <select name="pais" id="pais">
+            <option value="Argentina">Argentina</option>
+            <option value="Bolivia">Bolivia</option>
+            <option value="Uruguay">Uruguay</option>
+            <option value="Chile">Chile</option>
+
+
+         </select>
+         
+        </label>
+        <input type="submit" value="enviar" id="boton-enviar">
+        
+
+    </form>
+    
+</body>
+</html>
