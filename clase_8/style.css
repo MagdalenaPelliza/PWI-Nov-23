@@ -1,0 +1,30 @@
+.btn-primary{
+    background-color: brown;
+}
+.h5{
+    font-size: 44px;
+}
+.tarjeta{
+    background-color: green;
+    height: 200px;
+
+}
+.position-h3{
+    bottom: 30px;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px blue;
+
+}
+.letra{
+    color: aliceblue;
+}
+#primerCarousel{
+    width: 300px;
+
+}
+#cardY{
+    height: 2;
+}
